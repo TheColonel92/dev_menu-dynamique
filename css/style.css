@@ -18,7 +18,7 @@ nav ul li{ /* "li" est un élément en bloc, cad qu'elle occupe tout l'espace de
 	border: 0px solid blue;
 	width: 100px;
 	float: left;
-	background-color: #333
+	background-color: #333;
 }
 
 nav ul li a{ /* "a" est un élément "inline" cad PAS EN BLOC*/
