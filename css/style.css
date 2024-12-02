@@ -6,7 +6,7 @@ body {
 nav{
 	border: 1px solid black;
 	height: 30px;
-	background-color: blue;
+	background-color: #333;
 }
 
 nav ul{
@@ -42,6 +42,6 @@ nav ul li:hover ul{
 }
 
 nav ul li a:hover{ /* Effet de survol */
-	background-color: blue;
+	background-color: #999;
 	color: black;
 }
