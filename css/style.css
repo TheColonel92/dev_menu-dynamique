@@ -1,0 +1,40 @@
+body {
+	background-color: #f5ffff; /* chaque ligne termine par ";"*/
+	
+}
+nav ul{
+	list-style-type: none; /* Pour suppr les puces*/
+	margin: 0; /* Marge Ext*/
+	padding: 0; /* Marge Int*/
+}
+
+nav ul li{ /* "li" est un élément en bloc, cad qu'elle occupe tout l'espace de l'élément parent "ul"*/
+	border: 0px solid blue;
+	width: 100px;
+	float: left;
+	background-color: #333
+}
+
+nav ul li a{ /* "a" est un élément "inline" cad PAS EN BLOC*/
+	border: 0px solid green;
+	width: 100px; /* Le pb des éléments "inline", on ne peut pas modifier sa largeur. Il faut changer sa nature d'affichage */
+	display: block; /* "display" = affichage */
+	text-decoration: none; /* Pour ce débarasser du soulignement du lien */
+	text-align: center;
+	height: 30px;
+	line-height: 30px; /* Pour centrer verticalement */
+	color: white;
+}
+
+nav ul li ul{
+	display: none;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li a:hover{
+	background-color: #999;
+	color: black;
+}
