@@ -5,6 +5,8 @@ body {
 
 nav{
 	border: 1px solid black;
+	height: 30px;
+	background-color: blue;
 }
 
 nav ul{
