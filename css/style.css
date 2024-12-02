@@ -34,7 +34,7 @@ nav ul li:hover ul{
 	display: block;
 }
 
-nav ul li a:hover{
-	background-color: #999;
+nav ul li a:hover{ /* Effet de survol */
+	background-color: blue;
 	color: black;
 }
