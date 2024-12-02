@@ -1,5 +1,6 @@
 body {
 	background-color: #f5ffff; /* chaque ligne termine par ";"*/
+	
 }
 
 nav{
@@ -16,14 +17,14 @@ nav ul{
 
 nav ul li{ /* "li" est un élément en bloc, cad qu'elle occupe tout l'espace de l'élément parent "ul"*/
 	border: 0px solid blue;
-	width: 100px;
+	width: 150px;
 	float: left;
 	background-color: #333;
 }
 
 nav ul li a{ /* "a" est un élément "inline" cad PAS EN BLOC*/
 	border: 0px solid green;
-	width: 100px; /* Le pb des éléments "inline", on ne peut pas modifier sa largeur. Il faut changer sa nature d'affichage */
+	width: 150px; /* Le pb des éléments "inline", on ne peut pas modifier sa largeur. Il faut changer sa nature d'affichage */
 	display: block; /* "display" = affichage */
 	text-decoration: none; /* Pour ce débarasser du soulignement du lien */
 	text-align: center;
@@ -43,4 +44,19 @@ nav ul li:hover ul{
 nav ul li a:hover{ /* Effet de survol */
 	background-color: #999;
 	color: black;
+}
+
+header img{
+	width: 100%;
+	height: AUTO; /*Pour rendre une image responsive (ajustable à l'écran de l'apparail)*/
+} /*Ici on cible que l'image avec l'espace entre valises*/
+
+section{
+	border: 1px solid black;
+	margin-top: 1px;
+	width: 70%;
+	margin: 70px auto 0 auto;
+	padding: 0 20px; /*Rembourage/Doublure/Marge Int*/
+	border-radius: 20px; /*Arrondie les angles des boites*/
+	box-shadow: 5px 5px 5px black; /*Ajout d'un effet d'ombre 3D, horizontale, Verticale, Intensité*/
 }
