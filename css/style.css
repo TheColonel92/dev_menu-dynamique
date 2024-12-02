@@ -2,6 +2,11 @@ body {
 	background-color: #f5ffff; /* chaque ligne termine par ";"*/
 	
 }
+
+nav{
+	border: 1px solid black
+}
+
 nav ul{
 	list-style-type: none; /* Pour suppr les puces*/
 	margin: 0; /* Marge Ext*/
